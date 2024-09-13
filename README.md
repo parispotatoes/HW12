@@ -1,2 +1,4 @@
 # HW12
-NoSQL
+NoSQL Databases
+
+For this assignment, pyMongo, MongoDB, and Pandas were employed to create a database named "uk_foods" with a collection called "establishments," which contained semi-structured data sourced from a .json file. During the setup phase, MongoDB was utilized to add a new item to the database, update this item, remove all establishments from Dover, and adjust data types for three fields: converting latitude and longitude from strings to decimals and changing RatingValue from strings to integers. In the analysis phase, MongoDB was used to query various data, including establishments with a hygiene score of 20, establishments in London with a RatingValue of 4 or higher, the top 5 establishments with a RatingValue of 5 sorted by lowest hygiene score near the new establishment added during setup, and the number of establishments per Local Authority with a hygiene score of 0. To address these queries, an aggregation pipeline was employed for one of the questions.
